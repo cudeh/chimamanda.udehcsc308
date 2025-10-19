@@ -1,5 +1,9 @@
 [package]
+<<<<<<< HEAD
 name = "classwork2"
+=======
+name = "classwork1"
+>>>>>>> ebd962a (My second commit)
 version = "0.1.0"
 edition = "2024"
 
