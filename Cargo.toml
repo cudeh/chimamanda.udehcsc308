@@ -1,9 +1,13 @@
 [package]
 <<<<<<< HEAD
+<<<<<<< HEAD
 name = "classwork2"
 =======
 name = "classwork1"
 >>>>>>> ebd962a (My second commit)
+=======
+name = "assignment"
+>>>>>>> 77c3f13 (My first commit)
 version = "0.1.0"
 edition = "2024"
 

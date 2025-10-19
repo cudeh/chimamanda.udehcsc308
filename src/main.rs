@@ -1,5 +1,6 @@
 fn main() {
 <<<<<<< HEAD
+<<<<<<< HEAD
     let bill_amount: f64 = 12000.0; 
     let mut discount: f64 = 0.0;    
 
@@ -27,3 +28,7 @@ fn main() {
 
 >>>>>>> ebd962a (My second commit)
 }
+=======
+    println!("Hello, world!");
+}
+>>>>>>> 77c3f13 (My first commit)
