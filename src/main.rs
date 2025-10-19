@@ -1,4 +1,7 @@
+use std::io;
+
 fn main() {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     let bill_amount: f64 = 12000.0; 
@@ -32,3 +35,30 @@ fn main() {
     println!("Hello, world!");
 }
 >>>>>>> 77c3f13 (My first commit)
+=======
+    println!("Enter your electricity usage in kWh:");
+
+    let mut input = String::new();
+    io::stdin().read_line(&mut input).expect("Failed to read input");
+
+    let usage: i32 = input.trim().parse().expect("Please enter valid number");
+
+    let rate: i32;
+
+    
+    if usage > 200 {
+        rate = 30;
+    } else if usage > 100 {
+        rate = 25;
+    } else {
+        rate = 20;
+    }
+
+    let total_bill = usage * rate;
+
+    
+    println!("Energy Consumption: {} kWh", usage);
+    println!("Rate per kWh: ₦{}", rate);
+    println!("Total Bill: ₦{}", total_bill);
+}
+>>>>>>> e422145 (My first commit)
